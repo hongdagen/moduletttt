@@ -42,9 +42,24 @@
 /************************************************************************/
 /******/ ([
 /* 0 */
+/***/ function(module, exports, __webpack_require__) {
+
+	// var $=require('jquery');
+	// var $root=$('#root')
+	// $root.html('<p>1111</p>')
+
+	var aUtil=__webpack_require__(1)
+	aUtil.print();
+
+/***/ },
+/* 1 */
 /***/ function(module, exports) {
 
-	console.log(100)
+	module.exports={
+	    print:function(){
+	        console.log(112)
+	    }
+	}
 
 /***/ }
 /******/ ]);
